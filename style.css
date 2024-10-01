@@ -22,13 +22,40 @@ img {
     height: 200px;
 }
 
+h2 {
+    text-align: center;
+}
+
+/* navigation bar style */
+/* nav ul selects any ul that is inside a nav */
+nav ul {
+    /* remove bullet points */
+    list-style-type: none;
+
+    /* display flex so elements appear in a row */
+    display: flex;
+
+    /* set color styles */
+    background-color: rgb(173, 86, 254);
+    color: white;
+}
+
+/* list items within any navigation bar styles */
+nav ul li {
+    /* padding - space between element and border */
+    padding: 5px;
+    /* border style and with */
+    border-style: solid;
+    border-width: 2px;
+    /* margin - space between border and other elements */
+    margin: 5px;
+
+    background-color: #edbf5c;
+}
+
 /* green-bg class sets background to green */
 .green-bg {
     background-color: rgb(124, 194, 124);
-}
-
-h2 {
-    text-align: center;
 }
 
 /* container - centers all content within container */
