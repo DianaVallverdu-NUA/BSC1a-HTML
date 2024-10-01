@@ -27,6 +27,16 @@ h2 {
 }
 
 /* navigation bar style */
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 40px;
+}
+
+#nav-placeholder{
+    height: 40px;
+}
+
 /* nav ul selects any ul that is inside a nav */
 nav ul {
     /* remove bullet points */
@@ -51,6 +61,9 @@ nav ul li {
     margin: 5px;
 
     background-color: #edbf5c;
+
+    /* show pointer upon hovering element */
+    cursor: pointer;
 }
 
 /* remove default a element CSS */
