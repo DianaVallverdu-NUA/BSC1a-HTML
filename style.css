@@ -1,21 +1,26 @@
+/* Set margin, padding and font for whole page */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* body CSS - shared bg color */
 body {
     background-color: blue;
 }
 
+/* paragraph CSS - shared text color */
 p {
     color: white;
 }
 
+/* green-bg class sets background to green */
 .green-bg {
     background-color: rgb(124, 194, 124);
 }
 
+/* first div specific background */
 #first-div {
     background-color: #edbf5c;
 }
