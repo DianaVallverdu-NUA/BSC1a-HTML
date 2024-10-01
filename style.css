@@ -7,3 +7,15 @@
 body {
     background-color: blue;
 }
+
+p {
+    color: white;
+}
+
+.green-bg {
+    background-color: rgb(124, 194, 124);
+}
+
+#first-div {
+    background-color: #edbf5c;
+}
