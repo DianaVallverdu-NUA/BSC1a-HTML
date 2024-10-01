@@ -53,6 +53,11 @@ nav ul li {
     background-color: #edbf5c;
 }
 
+/* remove default a element CSS */
+a {
+    all: unset;
+}
+
 /* green-bg class sets background to green */
 .green-bg {
     background-color: rgb(124, 194, 124);
