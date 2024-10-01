@@ -15,6 +15,12 @@ p {
     color: white;
 }
 
+/* style for all images - set width and height */
+img {
+    width: 200px;
+    height: 200px;
+}
+
 /* green-bg class sets background to green */
 .green-bg {
     background-color: rgb(124, 194, 124);
