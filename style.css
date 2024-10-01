@@ -8,6 +8,7 @@
 /* body CSS - shared bg color */
 body {
     background-color: blue;
+    width: 100vw;
 }
 
 /* paragraph CSS - shared text color */
@@ -26,6 +27,26 @@ img {
     background-color: rgb(124, 194, 124);
 }
 
+h2 {
+    text-align: center;
+}
+
+/* container - centers all content within container */
+.container {
+    /* set width and height */
+    width: 100%;
+    height: 400px;
+
+    /* display: flex - allows fluidity of the container's content */
+    display: flex;
+    /* set direction to column to prevent everything on same line */
+    flex-direction: column;
+    /* align items vertically - centered */
+    align-items: center;
+    /* justify content horizontally - centered */
+    justify-content: center;
+}
+
 /* first div specific background */
 #first-div {
     background-color: #edbf5c;
@@ -39,7 +60,7 @@ img {
 
 @keyframes makesquare {
     0% {
-        top: 0px; 
+        top: 0px;
         left: 0px;
     }
 
